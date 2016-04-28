@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    CALayer *_animation;
+    CAShapeLayer *_path;
+}
+
+@property (nonatomic, retain) CALayer *animation;
+@property (nonatomic, retain) CAShapeLayer *path;
 
 
 @end

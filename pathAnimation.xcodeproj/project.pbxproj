@@ -13,6 +13,8 @@
 		09908D2B1CD1FD4300F2D194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09908D291CD1FD4300F2D194 /* Main.storyboard */; };
 		09908D2D1CD1FD4300F2D194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09908D2C1CD1FD4300F2D194 /* Assets.xcassets */; };
 		09908D301CD1FD4300F2D194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09908D2E1CD1FD4300F2D194 /* LaunchScreen.storyboard */; };
+		09908D381CD1FE3500F2D194 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09908D371CD1FE3500F2D194 /* QuartzCore.framework */; };
+		09908D3A1CD1FE3D00F2D194 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09908D391CD1FE3D00F2D194 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		09908D2C1CD1FD4300F2D194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09908D2F1CD1FD4300F2D194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09908D311CD1FD4300F2D194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09908D371CD1FE3500F2D194 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		09908D391CD1FE3D00F2D194 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09908D3A1CD1FE3D00F2D194 /* CoreText.framework in Frameworks */,
+				09908D381CD1FE3500F2D194 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,8 @@
 		09908D141CD1FD4300F2D194 = {
 			isa = PBXGroup;
 			children = (
+				09908D391CD1FE3D00F2D194 /* CoreText.framework */,
+				09908D371CD1FE3500F2D194 /* QuartzCore.framework */,
 				09908D1F1CD1FD4300F2D194 /* pathAnimation */,
 				09908D1E1CD1FD4300F2D194 /* Products */,
 			);
